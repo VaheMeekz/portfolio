@@ -1,0 +1,99 @@
+.homePageBody{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 950px;
+    height: 750px;
+    background-color: #222222;
+}
+
+h1{
+    color: #F5F5F5;
+}
+
+p{
+    color: #A7A7A7;
+}
+
+.about{
+    text-align: left;
+    padding: 20px;
+}
+
+.contactBody{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactInformationItem{
+    width: 200px;
+    height: 120px;
+    border: 1px solid lightgray;
+    background-color: #444444;
+    margin-left: -70px;
+    margin-top: +40px;
+    text-align: center;
+}
+
+.contactImage{
+    z-index: 16;
+    margin-top: 5%;
+margin-bottom: 35%;
+}
+
+
+.contactItemTextMail{
+    z-index: 5;
+    margin-top: -35%;
+    margin-left: 16%;
+    color: #E5E5E5;
+    font-size: 16px;
+    font-weight: bold;
+}
+.contactItemText{
+    z-index: 5;
+    margin-top: -35%;
+    margin-left: 28%;
+    color: #E5E5E5;
+    font-size: 16px;
+    font-weight: bold;
+}
+.formBody{
+    display: flex;
+    justify-content: space-around;
+}
+
+.backImg{
+    width: 500px;
+    height: 250px;
+}
+
+.send{
+    width: 220px;
+    height: 30px;
+    border: 2px solid #04AAD4;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:#222222;
+    color: #E5E5E5;
+    font-size: 16px;
+    font-weight: bold;
+}
+.message{
+    width: 220px;
+    height: 150px;
+    border: 2px solid #04AAD4;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:#333333;
+    color: #222222;
+}
+.inputs{
+    width: 220px;
+    height: 30px;
+    border: 2px solid #04AAD4;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:#333333;
+    color: black;
+}

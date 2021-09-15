@@ -1,0 +1,94 @@
+.homePageBody {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 950px;
+    height: 750px;
+    background-color: #222222;
+}
+
+.about {
+    text-align: left;
+    padding: 20px;
+}
+
+.alex {
+    margin-top: 250px;
+}
+
+h1 {
+    color: #F5F5F5;
+    font-size: 30px;
+}
+
+h3 {
+    color: #F5F5F5;
+}
+
+.Jhonson {
+    color: #04AAD4;
+}
+
+.footer {
+    border: 1px solid #A7A7A7;
+    height: 50px;
+    width: 850px;
+    margin: 40px;
+    padding: 10px;
+}
+
+.line {
+    width: 0;
+    height: 100px;
+    border: 1px solid #A7A7A7;
+    margin-left: 42px;
+}
+
+.footerInformation {
+    float: left;
+    margin: 2px 10px 5px 5px;
+}
+
+.manecas {
+    margin-top: -100px;
+    margin-left: 10%;
+}
+
+.man {
+    margin-top: -2.6%;
+    margin-right: 480px;
+}
+
+.lmp {
+    margin-top: -3.5%;
+    margin-left: 210px;
+}
+.footerSocialIcons{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -3.5%;
+    margin-left: 85%;
+}
+.footerSocialIconsItems{
+    padding: 3px;
+    margin: 0 10px 0 0;
+}
+p {
+    color: #A7A7A7;
+}
+
+.headerImg {
+    width: 850px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.newsInformation {
+    z-index: 5;
+    background-color: #222222;
+}
+
+.newsText {
+    margin: 10px 10px 10px 40px;
+}

@@ -1,0 +1,45 @@
+.homePageBody{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 950px;
+    height: 750px;
+    background-color: #222222;
+}
+
+.informationBody{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.information{
+    color:#04B4E0;
+    text-align: left;
+    float: left;
+}
+
+h1{
+    color: #F5F5F5;
+}
+
+h2{
+    color: #F5F5F5;
+}
+
+.about{
+    text-align: left;
+    padding: 20px;
+}
+
+p{
+    color: #A7A7A7;
+    font-size: 18px;
+    text-align: left;
+}
+
+.whatIdo{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}

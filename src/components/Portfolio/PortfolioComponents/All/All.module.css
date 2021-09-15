@@ -1,0 +1,16 @@
+.portImages{
+    width: 280px;
+    height: 200px;
+}
+
+.allBody{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 10px;
+}
+
+h4{
+    font-size: 18px;
+    color: #E5E5E5;
+    margin: 10px;
+}

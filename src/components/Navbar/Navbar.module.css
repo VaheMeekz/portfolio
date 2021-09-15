@@ -1,0 +1,126 @@
+
+.navbar{
+    padding: 15px;
+    margin-top:130px ;
+}
+NavLink:active{
+    border: 1px solid #04AAD4;
+}
+
+
+.home:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -250%; top: 20%;
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background:#04B4E0;
+    color: #E5E5E5;/* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 20px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid  #E5E5E5; /* Параметры рамки */
+}
+.home{
+    display: inline-block;
+    position: relative;
+}
+.about{
+    display: inline-block;
+    position: relative;
+}
+.about:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -300%; top: 20%;
+    z-index: 1;
+    background:#04B4E0;
+    color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #E5E5E5;
+}
+
+.resume{
+    display: inline-block;
+    position: relative;
+}
+.resume:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -300%; top: 20%;
+    z-index: 1;
+    background:#04B4E0;
+    color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #E5E5E5;
+}
+.portfoliio{
+    display: inline-block;
+    position: relative;
+}
+.portfoliio:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -300%; top: 20%;
+    z-index: 1;
+    background:#04B4E0;
+    color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #E5E5E5;
+}
+.blog{
+    display: inline-block;
+    position: relative;
+}
+.blog:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -200%; top: 15%;
+    z-index: 1;
+    background:#04B4E0;
+    color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #E5E5E5;
+}
+
+.contact{
+    display: inline-block;
+    position: relative;
+}
+.contact:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -300%; top: 20%;
+    z-index: 1;
+    background:#04B4E0;
+    color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #E5E5E5;
+}
+.navbarItems{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 55px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #444444;
+
+}
+
+.navbarArrows{
+    border: 1px solid black;
+    border-radius: 55px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #444444;
+}
+
