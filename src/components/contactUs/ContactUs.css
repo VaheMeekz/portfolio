@@ -1,0 +1,65 @@
+.contactBox {
+  width: 100%;
+  padding: 10px;
+  background: aliceblue;
+}
+
+.contentBox{
+    display: flex;
+}
+
+.socialBox {
+    padding: 10px 15px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 1a6px;
+  resize: vertical;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  background-color: rgba(73, 63, 252, 1);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(73, 63, 252, 1);
+  margin-top: 10px;
+}
+
+.container {
+    width: 50%;
+  border-radius: 5px;
+  background-color: rgb(36, 36, 36);
+  padding: 20px;
+}
+
+.socialsIcons {
+    display: flex;
+}
+
+.socialsIcons div {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contentBox{
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+}

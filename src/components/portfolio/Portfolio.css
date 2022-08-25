@@ -1,0 +1,11 @@
+.portBox{
+    width: 100%;
+    padding: 10px;
+    background: aliceblue;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
