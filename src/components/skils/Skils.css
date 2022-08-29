@@ -1,0 +1,44 @@
+.skilBox {
+  width: 100%;
+  background: aliceblue;
+}
+
+.skilOptions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skilOptions div {
+  background: rgba(73, 63, 252, 1);
+  border-radius: 10px;
+  padding: 10px;
+  width: 30%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: aliceblue;
+}
+
+.skilOptions :hover {
+  width: 32%;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.skilOptions div div {
+  width: 90%;
+}
+
+.skilOptions div div img {
+  width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  .skilOptions div {
+    width: 43%;
+  }
+}

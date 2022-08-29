@@ -47,13 +47,6 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-.socialsIcons {
-    display: flex;
-}
-
-.socialsIcons div {
-    margin-left: 10px;
-}
 
 @media only screen and (max-width: 600px) {
     .contentBox{

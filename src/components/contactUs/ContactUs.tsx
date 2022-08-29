@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ContactUs.css";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import GoogleIcon from '@mui/icons-material/Google';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+
 const ContactUs = () => {
+
+  const [firstName,setFirstName] = useState("")
+  
   return (
     <div className="contactBox">
       <div className="titleBox">
@@ -21,7 +20,6 @@ const ContactUs = () => {
               name="firstname"
               placeholder="Your name.."
             />
-
             <label>Last Name</label>
             <input
               type="text"
@@ -41,15 +39,7 @@ const ContactUs = () => {
           </form>
         </div>
         <div className="socialBox">
-            <h1>Network</h1>
-            <p>You Can Find Me</p>
-            <div className="socialsIcons">
-                <div><LinkedInIcon/></div>
-                <div><GitHubIcon/></div>
-                <div><InstagramIcon/></div>
-            </div>
-            <div><GoogleIcon/> example@gmail.com</div>
-            <div><LocalPhoneIcon/> +374-99-999-999</div>
+           
         </div>
       </div>
     </div>

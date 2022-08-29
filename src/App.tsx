@@ -4,7 +4,9 @@ import ContactUs from './components/contactUs/ContactUs';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Navabr from './components/navbar/Navbar';
-// import Portfolio from './components/portfolio/Portfolio';
+import Skils from './components/skils/Skils';
+import Portfolio from './components/portfolio/Portfolio';
+import Experience from './components/experience/Experience';
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Navabr/>
       <Header/>
       <About/>
-      {/* <Portfolio/> */}
+      <Experience/>
+      <Portfolio/>
+      <Skils/>
       <ContactUs/>
       <Footer/>
     </div>
